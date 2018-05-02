@@ -3,6 +3,11 @@ from operator import itemgetter
 from csv import DictWriter
 import os
 
+# prerequisites:
+# install python with pip: https://www.python.org/downloads/
+# install gmusic api using pip: http://unofficial-google-music-api.readthedocs.io/en/latest/usage.html
+# get a google app-specific token for 2 factor auth: https://www.google.com/accounts/IssuedAuthSubTokens?hide_authsub=1
+
 username = 'your@email.com'
 api_token = 'your api token'
 library_filename = 'library'
